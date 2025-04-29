@@ -1,0 +1,14 @@
+.searchBox {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: solid 1px #e9ec0fee;
+  border-radius: 10px;
+  padding:10px 32px;
+  width: 215px;
+}
+.searchTitle {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
