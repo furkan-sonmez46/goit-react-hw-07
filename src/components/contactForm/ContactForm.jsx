@@ -14,13 +14,13 @@ const ContactForm = () => {
 
   const validationSchema = Yup.object().shape({
     name: Yup.string()
-      .min(3, 'Minimum 3 characters required')
+      .min(5, 'Minimum 5 characters required')
       .max(50, 'Maximum 50 characters required')
       .required('*Required'),
     number: Yup.string()
       .matches(/^[0-9-]+$/, 'Only numbers and hyphens are allowed')
-      .min(3, 'Minimum 3 characters required')
-      .max(50, 'Maximum 50 characters required')
+      .min(10, 'Minimum 10 characters required')
+      .max(10, 'Maximum 10 characters required')
       .required('*Required'),
   });
 
@@ -41,13 +41,13 @@ const ContactForm = () => {
       <Form className={css.contactForm}>
         <label className={css.label}>
           Name
-          <Field name="name" type="text" />
+          <Field name="name" type="text" placeholder="Furkan Sonmez" />
           <ErrorMessage name="name" component="div" className={css.error} />
         </label>
 
         <label className={css.label}>
           Number
-          <Field name="number" type="text" />
+          <Field name="number" type="text" placeholder="(123)-456-7890" />
           <ErrorMessage name="number" component="div" className={css.error} />
         </label>
 
