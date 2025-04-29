@@ -5,10 +5,12 @@
 }
 .dltButton {
   background-color: #242424;
-  color: #e9ec0fee;
+  color: red;
   border: solid 1px #e9ec0fee;
   border-radius: 5px;
-  padding: 5px;
+          width: 80px;
+        height: 40px;
+        padding: 2px;
   margin: 5px;
 }
 .dltButton:hover {

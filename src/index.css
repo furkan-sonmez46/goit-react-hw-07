@@ -22,8 +22,7 @@
 * {
   margin: 0 auto;
   padding: 0;
-  box-sizing: border-box;
-  
+  box-sizing: border-box;  
 }
 
 
@@ -53,6 +52,7 @@ button, input, textarea, select {
   border: none;
   background: rgb(82, 78, 51);
   outline: none;
+  width: 100%;
 }
 
 
