@@ -16,6 +16,7 @@
 .dltButton:hover {
   color: white;
   background-color: red;
+  cursor: pointer;
 }
 .contactInfo {
     margin-left: 5px;
