@@ -1,12 +1,12 @@
 .contactDiv {
   display: flex;
   width: 280px;
-  border: solid 1px #e9ec0fee;
+  border: solid 1px white;
 }
 .dltButton {
   background-color: #242424;
   color: red;
-  border: solid 1px #e9ec0fee;
+  border: solid 1px white;
   border-radius: 5px;
           width: 80px;
         height: 40px;
@@ -14,8 +14,8 @@
   margin: 5px;
 }
 .dltButton:hover {
-  background-color: #e9ec0fee;
-  color: #242424;
+  color: white;
+  background-color: red;
 }
 .contactInfo {
     margin-left: 5px;
